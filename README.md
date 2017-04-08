@@ -1,7 +1,7 @@
 # Unbiased Time Manager
 
 Unbiased Time Manager combines Unity3D's Time.unscaledTime and NTP server times to report more reliable device independent Times. 
-It returns time with uint format in miliseconds unit.
+It returns time with ulong format in miliseconds unit.
 
 # How to use ?
 
@@ -15,7 +15,7 @@ If everything is ok. Depending on your connection speed. It will be ready in mil
 UnbiasedTime.Instance.time;
 ```
 
-It will return a unit value in millisecond format. If you want it in more readable format you can have DateTime with calling.
+It will return a ulong value in millisecond format. If you want it in more readable format you can have DateTime with calling.
 ```cs
 UnbiasedTime.Instance.dateTime;
 ```
